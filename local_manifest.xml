@@ -5,8 +5,8 @@
           fetch="git://github.com/" />
            
     <!-- CM replacements -->
-  <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <remove-project path="system/core" name="CyanogenMod/android_system_core" />
+  <remove-project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" />
+  <remove-project path="system/core" name="MoKee/android_system_core" />
 
   <!-- Local projects -->
   <project path="system/core" name="ysjlsw/android_system_core" remote="mitwo" revision="cm-10.1" />
