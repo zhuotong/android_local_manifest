@@ -9,8 +9,14 @@
   <remove-project path="system/core" name="CyanogenMod/android_system_core" />
 
   <!-- Local projects -->
+  <!--秋叶随风删除了文件，所以下面不可用了-->
   <project path="system/core" name="mitwo-dev/android_system_core" remote="mitwo" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="mitwo-dev/android_hardware_qcom_audio-caf" remote="mitwo" revision="cm-10.2" />
+  
+  <!--新地址-->
+  <project path="system/core" name="mitwo/android_system_core" remote="mitwo" revision="cm-10.2" />
+  <project path="hardware/qcom/audio-caf" name="mitwo/android_hardware_qcom_audio-caf" remote="mitwo" revision="cm-10.2" />
+
 
   <!-- device -->
   <project path="device/xiaomi/aries" name="mitwo-dev/android_device_xiaomi_aries" remote="mitwo" revision="cm-10.2" />
